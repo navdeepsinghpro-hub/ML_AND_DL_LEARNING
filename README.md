@@ -1,5 +1,13 @@
 # 🤖 Machine Learning & Deep Learning Journey
 
+Before starting my Machine Learning and Deep Learning journey, I built a strong foundation in:
+
+- 🐍 Python
+- 🔢 NumPy
+- 🐼 Pandas
+- 📊 Matplotlib
+- 🌊 Seaborn
+
 ## 📅 Started On
 **14 July 2026**
 
