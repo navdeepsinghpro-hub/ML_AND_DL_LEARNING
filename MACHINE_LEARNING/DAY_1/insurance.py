@@ -87,4 +87,31 @@ correlations = {
     for feature in selected_features
 }
 correlation_df = pd.DataFrame(list(correlations.items()), columns=['Feature', 'Pearson Correlation'])
-print(correlation_df.sort_values(by='Pearson Correlation', ascending=False))
+# print(correlation_df.sort_values(by='Pearson Correlation', ascending=False))
+
+cat_features = [
+    'is_female', 'is_smoker',
+    'region_northwest', 'region_southeast', 'region_southwest',
+    'bmi_cat_normal', 'bmi_cat_overweight', 'bmi_cat_obese'
+]
+from scipy.stats import chi2_contingency
+import pandas as pd
+
+alpha = 0.05
+
+df_cleaned['charges_bin'] = pd.qcut(df_cleaned['charges'], q=4, labels=False)
+chi2_results = {}
+
+for col in cat_features:
+    contingency = pd.crosstab(df_cleaned[col], df_cleaned['charges_bin'])
+    chi2_stat, p_val, _, _ = chi2_contingency(contingency)
+    decision = 'Reject Null (Keep Feature)' if p_val < alpha else 'Accept Null (Drop Feature)'
+    chi2_results[col] = {
+        'chi2_statistic': chi2_stat,
+        'p_value': p_val,
+        'Decision': decision
+    }
+
+chi2_df = pd.DataFrame(chi2_results).T
+chi2_df = chi2_df.sort_values(by='p_value')
+print(chi2_df)
