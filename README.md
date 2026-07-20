@@ -40,73 +40,106 @@ My goal is to build a strong foundation in AI and continuously improve by learni
 
 # 📖 Learning Log
 
-## 📅 Day 1 — 18 July 2026
-### 🏥 Insurance Dataset
-
-During my first practical Machine Learning session, I worked on an **Insurance Dataset** to understand the complete data preparation workflow.
-
-### ✅ Topics Covered
+## 📅 Day 1 — Insurance Dataset
+### 🏥 Topics Covered
 
 - 🔍 Exploratory Data Analysis (EDA)
 - 🧹 Data Cleaning
 - ⚙️ Data Preprocessing
 - 📏 Feature Scaling
 - 🏷️ Feature Engineering
-- 📊 Understanding Data Distribution
 - ❓ Handling Missing Values
 - 🔄 Encoding Categorical Features
-- 📈 Data Visualization using Matplotlib & Seaborn
+- 📈 Data Visualization
 
 ### 💡 What I Learned
 
-- How to inspect and understand a dataset.
-- How to identify and handle missing values.
-- How to clean messy data before training a model.
-- How to encode categorical variables.
-- How to scale numerical features using Feature Scaling.
-- The importance of EDA before building any Machine Learning model.
-- The basics of Feature Engineering.
+- Understanding dataset structure
+- Cleaning real-world data
+- Handling missing values
+- Applying preprocessing techniques
+- Basics of feature engineering
 
-> **Note:** My Feature Engineering skills are still improving, and I'm continuously practicing to become better at creating meaningful features.
+> Feature Engineering is still a learning area for me, but I’m improving with practice.
 
 ---
 
-## 📅 Day 2 — 19 July 2026
-### ❤️ Heart Disease Dataset
+## 📅 Day 2 — Heart Disease Dataset
+### ❤️ Skills Enhanced
 
-Today I worked on a **Heart Disease Prediction Dataset** and strengthened my understanding of the Machine Learning preprocessing pipeline.
-
-### ✅ Skills Enhanced
-
-- 📊 Advanced Exploratory Data Analysis (EDA)
-- 🧹 Data Cleaning Techniques
-- ❓ Missing Value Handling
-- 🔄 Feature Encoding
-- 📏 Feature Scaling
-- 🏷️ Feature Engineering Practice
-- 📈 Correlation Analysis
-- 📉 Distribution Analysis
-- 🎯 Outlier Detection
-- 📋 Data Visualization
-- 🤖 Preparing Data for Machine Learning Models
+- Advanced EDA
+- Data Cleaning
+- Missing Value Handling
+- Feature Encoding
+- Feature Scaling
+- Correlation Analysis
+- Outlier Detection
+- Data Visualization
+- Preparing data for ML models
 
 ### 💡 Improvements
 
-Compared to Day 1, I became more confident in:
-
-- Reading and understanding real-world datasets.
-- Choosing appropriate preprocessing techniques.
-- Visualizing relationships between features.
-- Cleaning datasets more efficiently.
-- Writing cleaner and more organized preprocessing code.
-
-Although I still have more to learn—especially in **Feature Engineering**—I can already see significant improvement through consistent practice.
+- Better understanding of preprocessing pipelines
+- More confidence with real-world datasets
+- Cleaner and more organized code
 
 ---
 
-## 🎯 Current Progress
+## 📅 Day 3 — Supervised Learning & Regression
+### 🚗🏥 Datasets Used
 
-### ✅ Completed
+- Insurance Dataset
+- Car Price Dataset
+
+### 📘 Topics Learned
+
+#### 🤖 Supervised Learning
+- Introduction to Supervised Learning
+- Understanding input features and target variables
+
+#### 📈 Regression Models
+- What Regression is
+- How regression models make predictions
+- Basic mathematical intuition behind regression
+
+#### ✂️ Train-Test Split
+- Splitting data into training and testing sets
+- Importance of evaluating models on unseen data
+
+#### 🏷️ Encoding Techniques
+- One-Hot Encoding
+- Label Encoding
+- When to use each encoding method
+
+#### 📏 Feature Scaling
+- StandardScaler
+- Why scaling is important for machine learning models
+
+### 🧪 Practical Work
+
+#### 🏥 Insurance Dataset
+- Continued work from previous days
+- Applied preprocessing techniques
+- Trained regression models
+- Tested model performance
+
+#### 🚗 Car Price Dataset
+- Applied both One-Hot Encoding and Label Encoding
+- Compared their effect on regression model efficiency
+- Practiced building a complete preprocessing + modeling pipeline
+
+### 💡 What I Improved
+
+- Understanding of the full supervised learning workflow
+- Confidence in using scikit-learn preprocessing tools
+- Better knowledge of categorical feature handling
+- Experience with training and evaluating regression models
+
+---
+
+# 🎯 Current Progress
+
+## ✅ Completed
 
 - Python
 - NumPy
@@ -122,19 +155,24 @@ Although I still have more to learn—especially in **Feature Engineering**—I 
 - Data Preprocessing
 - Feature Scaling
 - Basic Feature Engineering
+- Supervised Learning Basics
+- Regression Models
+- Train-Test Split
+- One-Hot Encoding
+- Label Encoding
+- StandardScaler
+- Building and Evaluating Regression Models
 
-### 🚀 Coming Next
+## 🚀 Coming Next
 
-- Machine Learning Algorithms
-- Model Training
-- Model Evaluation
-- Regression
-- Classification
+- Multiple Regression
+- Regularization (Ridge & Lasso)
+- Classification Algorithms
 - Cross Validation
 - Hyperparameter Tuning
 - Ensemble Learning
 - Deep Learning
 - Neural Networks
 - Computer Vision
-- Natural Language Processing (NLP)
+- NLP
 - Real-world AI Projects
