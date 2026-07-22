@@ -60,6 +60,30 @@
 
 ---
 
+## 📅 Day 5 — 22 July 2026
+
+**📚 Topics**
+
+- k nearest neighbors(KNN)
+- Choosing `K`
+- Euclidean Distance
+- Manhattan Distance
+- Distance-Based Classification
+- Majority Voting
+- KNN Mathematics
+
+- Naive Bayes Classification
+
+- Conditional Probability
+- Prior Probability
+- Likelihood, Posterior Probability
+- Bayes' Theorem
+- Naive Independence Assumption.
+
+🧮 **Bayes' Theorem:**
+
+P(A|B) = P(B|A) × P(A) / P(B)
+
 # ✅ Current Skills
 
 ### 🐍 Programming
@@ -77,10 +101,13 @@
 - Outlier Detection
 
 ### 🤖 Machine Learning
+
 - Supervised Learning
 - Simple & Multiple Linear Regression
 - Ridge & Lasso Regression
 - Logistic Regression
+- K-Nearest Neighbors (KNN)
+- Naive Bayes
 - train_test_split
 - OneHotEncoder
 - LabelEncoder
@@ -91,11 +118,20 @@
 - Recall
 - F1 Score
 - Log Loss
+- Euclidean Distance
+- Manhattan Distance
+- Bayes' Theorem
+- Conditional Probability
+- Prior Probability
+- Likelihood
+- Posterior Probability
+- Naive Independence Assumption
 
 ### 📂 Datasets
 - 🏥 Insurance
 - ❤️ Heart Disease
 - 🚗 Car Price
+- 🚢 Titanic 
 
 ---
 
