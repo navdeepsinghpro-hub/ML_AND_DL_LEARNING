@@ -84,21 +84,53 @@
 
 P(A|B) = P(B|A) × P(A) / P(B)
 
-# ✅ Current Skills
+## 📅 Day 6 — 23 July 2026
 
-### 🐍 Programming
-- Python, NumPy, Pandas, Matplotlib, Seaborn, Jupyter
+### 🤖 Classification Algorithms
 
-### 📊 Data Preprocessing
+On Day 6, I continued learning Classification Algorithms and studied:
+
+- 🧮 Support Vector Machine (SVM)
+- 🌳 Decision Tree
+
+### 🧮 Support Vector Machine (SVM)
+
+Learned how SVM classifies data by finding the best **hyperplane** that separates different classes.
+
+📚 **Topics:** Hyperplane, Decision Boundary, Margin, Support Vectors, Kernel Concept, and SVM Mathematics.
+
+### 🌳 Decision Tree
+
+Learned how Decision Trees make predictions by splitting data using feature-based conditions.
+
+📚 **Topics:** Nodes, Branches, Leaves, Decision Boundaries, Entropy, Gini Impurity, Information Gain, and Tree-Based Classification.
+
+💡 **Key Learning:**
+
+- 🧮 **SVM** finds the best boundary with the maximum margin.
+- 🌳 **Decision Tree** makes predictions through a series of feature-based decisions.
+
+# 🎯 Current Progress
+
+### 🐍 Foundation
+
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Jupyter Notebook & JupyterLab
+
+### 📊 Data Analysis
+
 - EDA
 - Data Cleaning
-- Data Analysis
-- Missing Values
-- Encoding
+- Data Preprocessing
+- Feature Engineering
 - Feature Scaling
-- Feature Engineering (Basics)
-- Correlation Analysis
+- Encoding
 - Outlier Detection
+- Correlation Analysis
 
 ### 🤖 Machine Learning
 
@@ -108,31 +140,38 @@ P(A|B) = P(B|A) × P(A) / P(B)
 - Logistic Regression
 - K-Nearest Neighbors (KNN)
 - Naive Bayes
-- train_test_split
-- OneHotEncoder
-- LabelEncoder
-- StandardScaler
+- Support Vector Machine (SVM)
+- Decision Tree
+- `train_test_split`
+- `OneHotEncoder`
+- `LabelEncoder`
+- `StandardScaler`
+
+### 📊 Model Evaluation
+
 - Confusion Matrix
 - Accuracy
 - Precision
 - Recall
 - F1 Score
 - Log Loss
+
+### 🧮 Mathematics
+
+- Regression Mathematics
+- Regularization
 - Euclidean Distance
 - Manhattan Distance
 - Bayes' Theorem
 - Conditional Probability
-- Prior Probability
-- Likelihood
-- Posterior Probability
-- Naive Independence Assumption
+- Entropy
+- Gini Impurity
+- Information Gain
+- SVM Mathematics
 
 ### 📂 Datasets
-- 🏥 Insurance
-- ❤️ Heart Disease
-- 🚗 Car Price
-- 🚢 Titanic 
 
----
-
-⭐ **Learning AI one day at a time.**
+- 🏥 Insurance Dataset
+- ❤️ Heart Disease Dataset
+- 🚗 Car Price Dataset
+- 🚢 Titanic Dataset
