@@ -110,6 +110,93 @@ Learned how Decision Trees make predictions by splitting data using feature-base
 - 🧮 **SVM** finds the best boundary with the maximum margin.
 - 🌳 **Decision Tree** makes predictions through a series of feature-based decisions.
 
+## 📅 Day 7 — 25 July 2026
+
+### ⚙️ Model Tuning & Optimization
+
+On Day 7, I learned how to improve Machine Learning models by tuning their parameters and finding better model configurations.
+
+### 📚 Topics Learned
+
+- Hyperparameters vs Parameters
+- Hyperparameter Tuning
+- `GridSearchCV`
+- `RandomizedSearchCV`
+- Cross-Validation
+- Model Selection
+- Improving Model Performance
+- Avoiding Overfitting
+
+### 💡 Key Learning
+
+I learned that **Model Tuning** helps find the best hyperparameter combination for a Machine Learning model.
+
+Instead of manually trying different values, tools like `GridSearchCV` and `RandomizedSearchCV` can automatically search for better configurations.
+
+---
+
+## 📅 Day 8 — 26 July 2026
+
+### 🌳 Ensemble Learning
+
+On Day 8, I learned about **Ensemble Learning**, where multiple Machine Learning models are combined to create a stronger and more reliable model.
+
+### 📚 Topics Learned
+
+- Understanding Ensemble Learning
+- Combining Multiple Models
+- Bagging
+- Boosting
+- Voting
+- Random Forest
+- Model Diversity
+- Improving Model Performance
+
+### 🧩 Ensemble Techniques
+
+- 🗳️ Voting
+- 🎒 Bagging
+- 🚀 Boosting
+- 🌳 Random Forest
+
+### 💡 Key Learning
+
+I learned that Ensemble Techniques combine multiple models to improve prediction performance and reduce the weaknesses of individual models.
+
+- 🎒 **Bagging** trains multiple models independently and combines their predictions.
+- 🚀 **Boosting** trains models sequentially, where each new model focuses on previous errors.
+- 🌳 **Random Forest** combines multiple Decision Trees.
+- 🗳️ **Voting** combines predictions from multiple different models.
+
+---
+
+### 🔄 Updated Machine Learning Workflow
+
+```text
+Data
+  ↓
+EDA & Data Cleaning
+  ↓
+Data Preprocessing
+  ↓
+Feature Engineering
+  ↓
+Encoding & Feature Scaling
+  ↓
+Train-Test Split
+  ↓
+Model Training
+  ↓
+Model Evaluation
+  ↓
+Model Tuning
+  ↓
+Cross-Validation
+  ↓
+Ensemble Learning
+  ↓
+Final Model Selection
+
 # 🎯 Current Progress
 
 ### 🐍 Foundation
@@ -155,6 +242,15 @@ Learned how Decision Trees make predictions by splitting data using feature-base
 - Recall
 - F1 Score
 - Log Loss
+- Cross-Validation
+- Hyperparameter Tuning
+- GridSearchCV
+- RandomizedSearchCV
+- Ensemble Learning
+- Bagging
+- Boosting
+- Voting
+- Random Forest
 
 ### 🧮 Mathematics
 
