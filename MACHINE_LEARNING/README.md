@@ -1,273 +1,147 @@
 # 📖 Learning Log
 
 ## 📅 Day 1 — 18 July 2026
-**🏥 Insurance Dataset**
-
-- EDA
-- Data Cleaning
-- Data Preprocessing
-- Missing Values
-- Feature Scaling
-- Feature Engineering (Basics)
-- Encoding
-- Data Visualization
+### 🏥 Insurance Dataset
+`EDA` • `Data Cleaning` • `Preprocessing` • `Missing Values` • `Feature Scaling` • `Feature Engineering` • `Encoding` • `Visualization`
 
 ---
 
 ## 📅 Day 2 — 19 July 2026
-**❤️ Heart Disease Dataset**
-
-- EDA
-- Data Cleaning
-- Encoding
-- Feature Scaling
-- Feature Engineering
-- Correlation Analysis
-- Outlier Detection
-- Data Visualization
+### ❤️ Heart Disease Dataset
+`EDA` • `Data Cleaning` • `Encoding` • `Feature Scaling` • `Feature Engineering` • `Correlation Analysis` • `Outlier Detection` • `Visualization`
 
 ---
 
 ## 📅 Day 3 — 20 July 2026
-**📈 Regression**
+### 📈 Supervised Learning & Regression
 
-- Supervised Learning
-- Features (X) & Target (y)
-- train_test_split
 - Simple & Multiple Linear Regression
+- Regression Mathematics
 - Ridge & Lasso Regression
 - L1 & L2 Regularization
-- OneHotEncoder
-- LabelEncoder
-- StandardScaler
+- `train_test_split`
+- `OneHotEncoder` • `LabelEncoder` • `StandardScaler`
 
-**📂 Practice:** Insurance & Car Price Dataset
+📂 **Practice:** Insurance & Car Price Datasets
 
 ---
 
 ## 📅 Day 4 — 21 July 2026
-**🎯 Classification**
+### 🎯 Classification & Evaluation
 
-- Logistic Regression
-- Sigmoid Function
-- Binary Classification
-- Confusion Matrix
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-- Log Loss
+`Logistic Regression` • `Sigmoid Function` • `Binary Classification` • `Confusion Matrix` • `Accuracy` • `Precision` • `Recall` • `F1 Score` • `Log Loss`
 
 ---
 
 ## 📅 Day 5 — 22 July 2026
+### 🧠 KNN & Naive Bayes
 
-**📚 Topics**
+**👥 K-Nearest Neighbors (KNN)**  
+`Choosing K` • `Euclidean Distance` • `Manhattan Distance` • `Majority Voting` • `Distance-Based Classification` • `KNN Mathematics`
 
-- k nearest neighbors(KNN)
-- Choosing `K`
-- Euclidean Distance
-- Manhattan Distance
-- Distance-Based Classification
-- Majority Voting
-- KNN Mathematics
+**🧠 Naive Bayes**  
+`Conditional Probability` • `Prior` • `Likelihood` • `Posterior` • `Bayes' Theorem` • `Naive Independence`
 
-- Naive Bayes Classification
-
-- Conditional Probability
-- Prior Probability
-- Likelihood, Posterior Probability
-- Bayes' Theorem
-- Naive Independence Assumption.
-
-🧮 **Bayes' Theorem:**
-
-P(A|B) = P(B|A) × P(A) / P(B)
+---
 
 ## 📅 Day 6 — 23 July 2026
+### ⚔️ Advanced Classification
 
-### 🤖 Classification Algorithms
+**🧮 Support Vector Machine (SVM)**  
+`Hyperplane` • `Margin` • `Support Vectors` • `Kernel Concept` • `SVM Mathematics`
 
-On Day 6, I continued learning Classification Algorithms and studied:
+**🌳 Decision Tree**  
+`Nodes` • `Branches` • `Leaves` • `Entropy` • `Gini Impurity` • `Information Gain`
 
-- 🧮 Support Vector Machine (SVM)
-- 🌳 Decision Tree
-
-### 🧮 Support Vector Machine (SVM)
-
-Learned how SVM classifies data by finding the best **hyperplane** that separates different classes.
-
-📚 **Topics:** Hyperplane, Decision Boundary, Margin, Support Vectors, Kernel Concept, and SVM Mathematics.
-
-### 🌳 Decision Tree
-
-Learned how Decision Trees make predictions by splitting data using feature-based conditions.
-
-📚 **Topics:** Nodes, Branches, Leaves, Decision Boundaries, Entropy, Gini Impurity, Information Gain, and Tree-Based Classification.
-
-💡 **Key Learning:**
-
-- 🧮 **SVM** finds the best boundary with the maximum margin.
-- 🌳 **Decision Tree** makes predictions through a series of feature-based decisions.
+---
 
 ## 📅 Day 7 — 25 July 2026
-
 ### ⚙️ Model Tuning & Optimization
 
-On Day 7, I learned how to improve Machine Learning models by tuning their parameters and finding better model configurations.
-
-### 📚 Topics Learned
-
-- Hyperparameters vs Parameters
-- Hyperparameter Tuning
-- `GridSearchCV`
-- `RandomizedSearchCV`
-- Cross-Validation
-- Model Selection
-- Improving Model Performance
-- Avoiding Overfitting
-
-### 💡 Key Learning
-
-I learned that **Model Tuning** helps find the best hyperparameter combination for a Machine Learning model.
-
-Instead of manually trying different values, tools like `GridSearchCV` and `RandomizedSearchCV` can automatically search for better configurations.
+`Parameters vs Hyperparameters` • `Cross-Validation` • `GridSearchCV` • `RandomizedSearchCV` • `Model Selection` • `Overfitting Prevention`
 
 ---
 
 ## 📅 Day 8 — 26 July 2026
-
 ### 🌳 Ensemble Learning
 
-On Day 8, I learned about **Ensemble Learning**, where multiple Machine Learning models are combined to create a stronger and more reliable model.
+`Voting` • `Bagging` • `Boosting` • `Random Forest` • `Model Diversity`
 
-### 📚 Topics Learned
-
-- Understanding Ensemble Learning
-- Combining Multiple Models
-- Bagging
-- Boosting
-- Voting
-- Random Forest
-- Model Diversity
-- Improving Model Performance
-
-### 🧩 Ensemble Techniques
-
-- 🗳️ Voting
-- 🎒 Bagging
-- 🚀 Boosting
-- 🌳 Random Forest
-
-### 💡 Key Learning
-
-I learned that Ensemble Techniques combine multiple models to improve prediction performance and reduce the weaknesses of individual models.
-
-- 🎒 **Bagging** trains multiple models independently and combines their predictions.
-- 🚀 **Boosting** trains models sequentially, where each new model focuses on previous errors.
-- 🌳 **Random Forest** combines multiple Decision Trees.
-- 🗳️ **Voting** combines predictions from multiple different models.
+> Combining multiple models can improve performance and reduce the weaknesses of individual models.
 
 ---
 
-### 🔄 Updated Machine Learning Workflow
+## 📅 Day 9 — 26 July 2026
+### 🧩 Unsupervised Learning & Dimensionality Reduction
 
-```text
-Data
-  ↓
-EDA & Data Cleaning
-  ↓
-Data Preprocessing
-  ↓
-Feature Engineering
-  ↓
-Encoding & Feature Scaling
-  ↓
-Train-Test Split
-  ↓
-Model Training
-  ↓
-Model Evaluation
-  ↓
-Model Tuning
-  ↓
-Cross-Validation
-  ↓
-Ensemble Learning
-  ↓
-Final Model Selection
+**🔵 Clustering**
+- Finding hidden patterns and groups in unlabeled data.
+
+**🌀 DBSCAN**
+- Density-based clustering
+- Noise & outlier detection
+- Arbitrary-shaped clusters
+- No need to specify the number of clusters
+
+**📉 PCA**
+- Dimensionality Reduction
+- Principal Components
+- Variance
+- Eigenvectors & Eigenvalues
+- Preserving important information
+
+---
 
 # 🎯 Current Progress
 
 ### 🐍 Foundation
+`Python` • `NumPy` • `Pandas` • `Matplotlib` • `Seaborn` • `Jupyter`
 
-- Python
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- Jupyter Notebook & JupyterLab
+### 📊 Data Science
+`EDA` • `Data Cleaning` • `Preprocessing` • `Feature Engineering` • `Feature Scaling` • `Encoding` • `Outlier Detection` • `Correlation Analysis`
 
-### 📊 Data Analysis
+### 🤖 Supervised Learning
+`Linear Regression` • `Ridge` • `Lasso` • `Logistic Regression` • `KNN` • `Naive Bayes` • `SVM` • `Decision Trees`
 
-- EDA
-- Data Cleaning
-- Data Preprocessing
-- Feature Engineering
-- Feature Scaling
-- Encoding
-- Outlier Detection
-- Correlation Analysis
+### 🧩 Unsupervised Learning
+`Clustering` • `DBSCAN` • `Dimensionality Reduction` • `PCA`
 
-### 🤖 Machine Learning
+### ⚙️ Model Improvement
+`Cross-Validation` • `Hyperparameter Tuning` • `GridSearchCV` • `RandomizedSearchCV`
 
-- Supervised Learning
-- Simple & Multiple Linear Regression
-- Ridge & Lasso Regression
-- Logistic Regression
-- K-Nearest Neighbors (KNN)
-- Naive Bayes
-- Support Vector Machine (SVM)
-- Decision Tree
-- `train_test_split`
-- `OneHotEncoder`
-- `LabelEncoder`
-- `StandardScaler`
+### 🌳 Ensemble Learning
+`Bagging` • `Boosting` • `Voting` • `Random Forest`
 
-### 📊 Model Evaluation
-
-- Confusion Matrix
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-- Log Loss
-- Cross-Validation
-- Hyperparameter Tuning
-- GridSearchCV
-- RandomizedSearchCV
-- Ensemble Learning
-- Bagging
-- Boosting
-- Voting
-- Random Forest
+### 📊 Evaluation
+`Confusion Matrix` • `Accuracy` • `Precision` • `Recall` • `F1 Score` • `Log Loss`
 
 ### 🧮 Mathematics
-
-- Regression Mathematics
-- Regularization
-- Euclidean Distance
-- Manhattan Distance
-- Bayes' Theorem
-- Conditional Probability
-- Entropy
-- Gini Impurity
-- Information Gain
-- SVM Mathematics
+`Regression Mathematics` • `Regularization` • `Euclidean Distance` • `Manhattan Distance` • `Bayes' Theorem` • `Entropy` • `Gini Impurity` • `Information Gain` • `SVM Mathematics` • `PCA Mathematics`
 
 ### 📂 Datasets
+🏥 Insurance • ❤️ Heart Disease • 🚗 Car Price • 🚢 Titanic
 
-- 🏥 Insurance Dataset
-- ❤️ Heart Disease Dataset
-- 🚗 Car Price Dataset
-- 🚢 Titanic Dataset
+---
+
+## 🚀 Learning Progress
+
+```text
+Python & Data Science
+        ↓
+EDA & Data Preprocessing
+        ↓
+Regression
+        ↓
+Classification
+        ↓
+Model Evaluation
+        ↓
+Model Tuning
+        ↓
+Ensemble Learning
+        ↓
+Unsupervised Learning
+        ↓
+Clustering & PCA
+        ↓
+🚀 Deep Learning
